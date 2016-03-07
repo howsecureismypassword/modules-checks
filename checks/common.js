@@ -19,7 +19,7 @@ module.exports = check(function (passwords) {
         if (rank) {
             return {
                 level: "insecure",
-                id: "top10k",
+                id: "common",
                 value: rank
             };
         } else {
